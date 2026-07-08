@@ -13,17 +13,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
-    - header.autohide
 
   palette:
-    - scheme: default
-      primary: deep purple
-      accent: amber
-      toggle:
-        icon: material/weather-night
-        name: Modo Escuro
-    - scheme: slate
+    - scheme: slate              # Tema escuro como padrão
       primary: deep purple
       accent: orange
       toggle:
@@ -32,15 +24,6 @@ theme:
 
   logo: assets/logo.png
   favicon: assets/favicon.ico
-  icon:
-    repo: fontawesome/brands/github
-
-extra:
-  social:
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/   # Troque depois
-    - icon: fontawesome/brands/github
-      link: https://github.com/kirojp/otpiece-wiki
 
 nav:
   - 🏠 Home: index.md
