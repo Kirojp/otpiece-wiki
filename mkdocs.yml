@@ -1,6 +1,5 @@
 site_name: OT Piece Wiki
 site_description: Wiki oficial do servidor OT Piece
-site_url: https://kirojp.github.io/otpiece-wiki/
 
 theme:
   name: material
@@ -9,13 +8,10 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    - navigation.tracking
     - search.suggest
-    - search.highlight
     - content.code.copy
 
   palette:
-    # Tema Escuro (padrão)
     - scheme: slate
       primary: deep purple
       accent: orange
@@ -23,16 +19,8 @@ theme:
         icon: material/weather-sunny
         name: Modo Claro
 
-    # Tema Claro (para alternar)
-    - scheme: default
-      primary: deep purple
-      accent: orange
-      toggle:
-        icon: material/weather-night
-        name: Modo Escuro
-
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
 
 nav:
   - 🏠 Home: index.md
