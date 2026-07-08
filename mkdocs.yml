@@ -4,17 +4,6 @@ site_description: Wiki oficial do servidor OT Piece
 theme:
   name: material
   language: pt
-  
-  palette:
-    scheme: slate        # Força tema escuro
-    primary: deep purple
-    accent: orange
-
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.suggest
 
 nav:
   - 🏠 Home: index.md
