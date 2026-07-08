@@ -14,37 +14,41 @@ theme:
     - search.highlight
     - content.code.copy
     - content.action.edit
+    - header.autohide
+
   palette:
     - scheme: default
-      primary: indigo
+      primary: deep purple
       accent: amber
       toggle:
         icon: material/weather-night
         name: Modo Escuro
     - scheme: slate
-      primary: indigo
-      accent: amber
+      primary: deep purple
+      accent: orange
       toggle:
         icon: material/weather-sunny
         name: Modo Claro
 
   logo: assets/logo.png
   favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
 
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/  # coloque seu discord depois
+      link: https://discord.gg/   # Troque depois
     - icon: fontawesome/brands/github
       link: https://github.com/kirojp/otpiece-wiki
 
 nav:
-  - Home: index.md
-  - Personagens: personagens.md
-  - Itens: itens.md
-  - Quests: quests.md
-  - Mapas: mapas.md
-  - Sobre: sobre.md
+  - 🏠 Home: index.md
+  - 👥 Personagens: personagens.md
+  - ⚔️ Itens: itens.md
+  - 📜 Quests: quests.md
+  - 🗺️ Mapas: mapas.md
+  - ℹ️ Sobre: sobre.md
 
 markdown_extensions:
   - admonition
