@@ -4,7 +4,6 @@ site_description: Wiki oficial do servidor OT Piece
 theme:
   name: material
   language: pt
-  
   features:
     - navigation.tabs
     - navigation.sections
@@ -13,9 +12,12 @@ theme:
     - content.code.copy
 
   palette:
-    primary: deep purple
-    accent: orange
-    scheme: slate   # Força o tema escuro
+    - scheme: slate
+      primary: deep purple
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Modo Claro
 
 nav:
   - 🏠 Home: index.md
@@ -29,3 +31,5 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
