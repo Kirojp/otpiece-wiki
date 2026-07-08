@@ -1,9 +1,10 @@
-site_name: OT Piece Wiki Test
+site_name: OT Piece Wiki
 site_description: Wiki oficial do servidor OT Piece
 
 theme:
   name: material
   language: pt
+  
   features:
     - navigation.tabs
     - navigation.sections
@@ -12,15 +13,9 @@ theme:
     - content.code.copy
 
   palette:
-    - scheme: slate
-      primary: deep purple
-      accent: orange
-      toggle:
-        icon: material/weather-sunny
-        name: Modo Escuro
-
-  icon:
-    repo: fontawesome/brands/github
+    primary: deep purple
+    accent: orange
+    scheme: slate   # Força o tema escuro
 
 nav:
   - 🏠 Home: index.md
@@ -34,5 +29,3 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.tabbed
-  - attr_list
