@@ -17,7 +17,7 @@ theme:
       accent: orange
       toggle:
         icon: material/weather-sunny
-        name: Modo Claro
+        name: Modo Escuro
 
   icon:
     repo: fontawesome/brands/github
