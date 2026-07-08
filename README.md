@@ -1,2 +1,1 @@
-# otpiece-wiki
-Wiki OTPiece
+# OTPiece Wiki !
