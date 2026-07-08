@@ -15,12 +15,21 @@ theme:
     - content.code.copy
 
   palette:
-    - scheme: slate              # Tema escuro como padrão
+    # Tema Escuro (padrão)
+    - scheme: slate
       primary: deep purple
       accent: orange
       toggle:
         icon: material/weather-sunny
         name: Modo Claro
+
+    # Tema Claro (para alternar)
+    - scheme: default
+      primary: deep purple
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Modo Escuro
 
   logo: assets/logo.png
   favicon: assets/favicon.ico
